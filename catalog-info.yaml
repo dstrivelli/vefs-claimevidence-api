@@ -3,6 +3,11 @@ kind: Component
 metadata:
   name: "vefs-claimevidence-api"
   description: "The ClaimEvidence API is a VEFS-derived application that is used for accessing Veterans' documents which serve as evidence for award."
+  tags:
+    - vefs 
+    - claim 
+    - document 
+    - evidence
   annotations:
     github.com/project-slug: dstrivelli/vefs-claimevidence-api
     backstage.io/techdocs-ref: url:https://github.com/dstrivelli/vefs-claimevidence-api
