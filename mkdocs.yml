@@ -1,0 +1,8 @@
+site_name: "vefs-claimevidence-api"
+site_description: "The ClaimEvidence API is a VEFS-derived application that is used for accessing Veterans' documents which serve as evidence for award."
+
+nav:
+  - Overview: index.md
+
+plugins:
+  - techdocs-core

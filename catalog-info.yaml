@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "vefs-claimevidence-api"
+  description: "The ClaimEvidence API is a VEFS-derived application that is used for accessing Veterans' documents which serve as evidence for award."
+  annotations:
+    github.com/project-slug: dstrivelli/vefs-claimevidence-api
+    backstage.io/techdocs-ref: url:https://github.com/dstrivelli/vefs-claimevidence-api
+spec:
+  type: service
+  lifecycle: production
+  owner: "vefs"
+  providesApis:
+    - vefs-claimevidence-api
