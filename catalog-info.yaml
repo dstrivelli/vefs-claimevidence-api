@@ -17,3 +17,6 @@ spec:
   owner: "vefs"
   providesApis:
     - vefs-claimevidence-api
+  consumesApis:
+    - vefs-api
+    - claims-api
